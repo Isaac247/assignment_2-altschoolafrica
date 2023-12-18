@@ -56,6 +56,9 @@ section {
   display: flex;
   flex-direction: column;
 }
+.form-1 input{
+  width: 100%;
+}
 .form-content {
   background: white;
   box-shadow: 0px 4px 50px rgba(3.59, 8.13, 19.13, 0.1);
@@ -75,7 +78,8 @@ input[type="date"] {
   -moz-appearance: none;
 }
 .activity-level {
-  width: 82%;
+  width: 100%;
+  background-color: white;
 }
 label,
 input {
@@ -257,4 +261,8 @@ select {
     position: absolute;
     bottom: -55px;
   }
+  select{
+    background-color: white;
+  }
+
 }
