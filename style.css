@@ -261,7 +261,7 @@ select {
     position: absolute;
     bottom: -55px;
   }
-  select{
+  select, .dob{
     background-color: white;
   }
 
